@@ -4,7 +4,7 @@
   "description": "fast food app for food ordering",
   "main": "app.js",
   "scripts": {
-    "start": "SET NODE_ENV=production && node app.js",
+    "start": "nodemon --exec babel-node --presets env,stage-2 ./app.js",
     "mocha": "mocha --compilers js:babel-register",
      "test": "mocha --compilers js:babel-register --recursive ./test/",
     "build": "babel src -d dist"
