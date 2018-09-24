@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node --presets env,stage-2 ../dist/app.js",
     "mocha": "mocha --compilers js:babel-register",
-    "test": "mocha --compilers js:babel-register --recursive ./dist/test/test.js/ --exit",
+    "test": "mocha --compilers js:babel-register --recursive ./test/ --exit",
     "build": "babel src -d dist"
   },
   "repository": {
