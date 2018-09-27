@@ -150,7 +150,7 @@ ul,ol {
 .form-subcribe p{
 	font-size:1.5em;
 	padding-right:10px;
-	color:#C71C22;;
+	color:#fff;
 	font-weight:600;
 	text-transform:italic;
 }
@@ -228,7 +228,7 @@ ul,ol {
     font-weight: 100;
 }
 .line {
-    background: url(../images/line.png) no-repeat 100px 20px;
+    background: url(../images/line.png) no-repeat 150px 20px;
     margin: 0.5em 0 3.5em 0;
 	
 }
@@ -293,30 +293,29 @@ ul,ol {
 }
 .steps-to-follow{
     margin-top: 6em;
+	grid-template-columns: 300px 300px 300px 300px;
 	
 	
 }
+
 .ordering-section{
-position: relative;
+    position: relative;
     min-height: 1px;
     padding-right: 15px;
-    padding-left: 15px;
+    margin-left: 20%;
+	
 }
 .clear{
 	clear:right;
 }
-.step-Grid{
-	 
-    display: grid;
-    grid-template-columns: 300px 300px 300px 300px;
-    
-}
+
 
 .img-back1{
     background: url(../images/order-section-bg.png) no-repeat;
     min-height: 200px;
     position: relative;
     cursor: pointer;
+	
 	
 }
 .color{
@@ -347,86 +346,7 @@ position: relative;
     transform: translateX(0);
 }
 }
-.ordering-section-img i.one {
-    width: 65px;
-    height: 65px;
-    background: url(../images/img-sprite.png) no-repeat 0px 0px;
-    display: inline-block;
-}
-.ordering-section-img i.one-icon {
-    background: url(../images/img-sprite.png) no-repeat -192px -2px;
-	margin-top: 2.7em;
-	display: inline-block;
 
-}
-p {
-    margin: 0 0 10px;
-}
-.ordering-section-img p {
-    font-size: 18px;
-    color: red;
-    font-weight: 700;
-    margin-top: 1.5em;
-    position: absolute;
-    left: -35%;
-    width: 112px;
-    text-align: center;
-}
-
-label {
-    margin: 0;
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-.ordering-section-img label {
-    position: absolute;
-    background: url(../images/img-sprite.png) no-repeat -230px -79px;
-    display: inline-block;
-    width: 80px;
-    height: 23px;
-    top: 98%;
-    right: -234%;
-}
-.ordering-section-img i.two {
-    width: 65px;
-    height: 65px;
-    background: url(../images/img-sprite.png) no-repeat -65px 0px;
-    display: inline-block;
-}
-.ordering-section-img i.two-icon {
-    width: 45px;
-    height: 45px;
-    background: url(../images/img-sprite.png) no-repeat -305px 0px;
-    display: inline-block;
-    margin-left: 0.55em;
-}
-.ordering-section-img i.three {
-    width: 65px;
-    height: 65px;
-    background: url(../images/img-sprite.png) no-repeat -130px 0px;
-    display: inline-block;
-}
-.ordering-section-img i.three-icon {
-    width: 45px;
-    height: 45px;
-    background: url(../images/img-sprite.png) no-repeat -350px 0px;
-    display: inline-block;
-    margin-left: 0.75em;
-}
-.ordering-section-img i.four {
-    width: 65px;
-    height: 65px;
-    background: url(../images/img-sprite.png) no-repeat -195px 0px;
-    display: inline-block;
-}
-.ordering-section-img i.four-icon {
-    width: 45px;
-    height: 45px;
-    background: url(../images/img-sprite.png) no-repeat -395px 0px;
-    display: inline-block;
-    margin-left: 0.6em;
-}
 /*** start of section 2 ***/
 /* special offer */
 .special-offer{
@@ -567,7 +487,7 @@ label {
 	text-decoration:underline;
 }
 .right-home a:hover{
-	color:#fff;
+	color:#4d9644;
 }
 
 .create-account{
@@ -601,108 +521,31 @@ label {
 }
 /* guarantee section */
 .service-section{
-	padding: 26px 10px 14px 150px; 
+	padding:15px 0; 
 	position:relative;
 	border-top:3px solid #ccc;
 }
 .section-float{
 	float:left;
-	margin:0 80px 10px 80px;
+	margin:0 13% 2% 5%;
+	vertical-align:middle;
 	
 	
 }
+.img-responsive{
+	width:25%;
+	height:20%;
+	
+}
+.icon{
+	display:inline-block;
+}
 .icon-section{
-	float:left;
+	text-align:center;
 }
 
 /***end of first phase***/
 /*** footer ***/
-footer{
-	background:#515151;
-	position: relative;
-	float: left;
-	width: 100%;
-}
-
-.footer-section{
-	display:inline-block;
-}
-.col-1{
-	float:left;
-	margin:10px auto;
-	padding:0 80px 0 100px;
-	width:350px;
-	
-}
-.col-1 h4{
-	color:#eee;
-}
-ul{
-	list-style:none;
-}
-.point{
-	width: 20px;
-    height: 15px;
-    background: url(../images/img-sprite.png) no-repeat -260px -46px;
-    display: inline-block;
-    vertical-align: middle;
-	float:left;
-    margin-right: 5px;
-}
-.data{
-	color: #A9A9A9;
-    font-weight: 600;
-    font-size: 15px;
-    
-}
-.dotted{
-	border-bottom:1px dotted #5BBD50;
-	padding-bottom:14px;
-}
-.fb{
-	width: 15px;
-    height: 15px;
-    background: url(../images/img-sprite.png) no-repeat -280px -46px;
-    display: inline-block;
-    vertical-align: middle;
-	float:left;
-    margin-right: 5px;
-    border-radius: 3px;
-}
-.tw{
-	width: 15px;
-    height: 15px;
-    background: url(../images/img-sprite.png) no-repeat -295px -46px;
-    display: inline-block;
-	float:left;
-    vertical-align: middle;
-    margin-right: 5px;
-    border-radius: 3px;
-}
-.in{
-	width: 15px;
-    height: 15px;
-    background: url(../images/img-sprite.png) no-repeat -310px -46px;
-    display: inline-block;
-	float:left;
-    vertical-align: middle;
-    margin-right: 5px;
-    border-radius: 3px;
-}
-.gp{
-	width: 15px;
-    height: 15px;
-    background: url(../images/img-sprite.png) no-repeat -325px -46px;
-    display: inline-block;
-	float:left;
-    vertical-align: middle;
-    margin-right: 5px;
-    border-radius: 3px;
-}
-.col-1 ul li a:hover{
-	text-decoration:underline;
-}
-
 .footer p {
     color: #5BBD50;
     font-size: 16px;
@@ -710,18 +553,18 @@ ul{
 	text-align:center;
 	padding:5px;
 }
+footer{
+	background:#515151;
+	position: relative;
+	float: left;
+	width: 100%;
+}
 /*** media and phone section***/
 @media (max-width:1100px){
-	.step-Grid{
-    display: grid;
-    grid-template-columns: 300px 300px ;
-    margin-left:20%;
-}
-.second-label label{
-	display:none;
-}
+	
+
 .section-float{
-	margin-left:0%;
+	margin:0 10% 2% 5%;
 }
 .col-1{
 	padding-right:0%;
@@ -747,6 +590,9 @@ ul{
 		float:left;
 		margin-top:8px;
 	}
+	.section-float{
+	margin:0 7% 2% 5%;
+	}
 	.login-section ul li a{
 		text-decoration:underline;
 	}
@@ -766,11 +612,17 @@ ul{
 	.text-font h1{
 		font-size:25px;
 	}
+	.icon-section h4{
+	font-size:16px;
+}
 	.text-font h2{
 		font-size:20px;
 	}
 	.step-Grid{
 		margin-left:2%;
+	}
+	.section-float{
+	margin:0 5% 2% 5%;
 	}
 	.text-food h1{
 		font-size:30px;
@@ -803,6 +655,16 @@ only screen and (max-width: 760px),
 		position: relative;
 		padding-left: 10%; 
 	}
+	.create-account{
+		 width:300px;
+		 margin-left:8px;
+	}
+   .create-account h1{
+	   font-size:21px;
+   }
+   .create-account p{
+	  font-size:14px;
+   }
 	
 	td:before { 
 		position: absolute;
@@ -822,9 +684,22 @@ only screen and (max-width: 760px),
 	.second-label label{
 	display:none;
 	}
+	.create-account{
+		 width:300px;
+		 margin-left:8px;
+	}
+   .create-account h1{
+	   font-size:21px;
+   }
+   .create-account p{
+	  font-size:14px;
+   }
 	.special-offer h1{
 		margin-left:30%;
 		width:200px;
+	}
+	.section-float{
+	margin:0 3% 2% 5%;
 	}
 	.service-section{
 	padding-left:20%;
@@ -848,6 +723,9 @@ only screen and (max-width: 760px),
 	background: url(../images/line.png) no-repeat -300px 20px;
     margin: 0.5em 0 3.5em 0;
 }
+.section-float{
+	margin:0 0 2% 5%;
+	}
 .service-section{
 	padding-left:30%;
 }
@@ -964,4 +842,14 @@ only screen and (max-width: 760px),
    .register-body{
 	padding:30px 15px 10px 10px;
 }
+}
+/* mobile scream */
+@media screen and (max-width: 800px)
+.footer-section {
+    width: 735px;
+}
+}
+@media (min-width: 768px)
+.footer-section {
+    width: 750px;
 }
