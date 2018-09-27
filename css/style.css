@@ -227,11 +227,7 @@ ul,ol {
     font-size: 2.5em;
     font-weight: 100;
 }
-.line {
-    background: url(../images/line.png) no-repeat 150px 20px;
-    margin: 0.5em 0 3.5em 0;
-	
-}
+
 .line h2 { 
     font-size: 30px;
 	color: #FFFFFF;
@@ -524,25 +520,22 @@ ul,ol {
 	padding:15px 0; 
 	position:relative;
 	border-top:3px solid #ccc;
+	
+	
 }
 .section-float{
 	float:left;
 	margin:0 13% 2% 5%;
 	vertical-align:middle;
+	text-align:center;
 	
 	
 }
-.img-responsive{
-	width:25%;
-	height:20%;
-	
-}
+
 .icon{
 	display:inline-block;
 }
-.icon-section{
-	text-align:center;
-}
+
 
 /***end of first phase***/
 /*** footer ***/
@@ -563,17 +556,12 @@ footer{
 @media (max-width:1100px){
 	
 
-.section-float{
-	margin:0 10% 2% 5%;
-}
+
 .col-1{
 	padding-right:0%;
 		
 }
-.line{
-	background: url(../images/line.png) no-repeat -30px 20px;
-    margin: 0.5em 0 3.5em 0;
-}
+
 .special-offer {
 	width:300px;
 }
@@ -590,19 +578,13 @@ footer{
 		float:left;
 		margin-top:8px;
 	}
-	.section-float{
-	margin:0 7% 2% 5%;
-	}
+	
 	.login-section ul li a{
 		text-decoration:underline;
 	}
-	.line{
-	background: url(../images/line.png) no-repeat -200px 20px;
-    margin: 0.5em 0 3.5em 0;
+	
 }
-.service-section{
-	padding-left:4%;
-}
+
 .register-body{
 	padding:30px 15px 10px 300px;
 }
@@ -621,9 +603,7 @@ footer{
 	.step-Grid{
 		margin-left:2%;
 	}
-	.section-float{
-	margin:0 5% 2% 5%;
-	}
+	
 	.text-food h1{
 		font-size:30px;
 	}
@@ -698,12 +678,7 @@ only screen and (max-width: 760px),
 		margin-left:30%;
 		width:200px;
 	}
-	.section-float{
-	margin:0 3% 2% 5%;
-	}
-	.service-section{
-	padding-left:20%;
-	}
+
 	.text-font h1{
 		font-size:25px;
 	}
@@ -719,16 +694,7 @@ only screen and (max-width: 760px),
 	.logo{
 		margin-left:25%;
 	}
-	.line{
-	background: url(../images/line.png) no-repeat -300px 20px;
-    margin: 0.5em 0 3.5em 0;
-}
-.section-float{
-	margin:0 0 2% 5%;
-	}
-.service-section{
-	padding-left:30%;
-}
+	
 .top-menu ul li{
 	margin: 0 25px;
 }
@@ -770,6 +736,10 @@ only screen and (max-width: 760px),
 .top-menu ul li{
 	margin: 0 12px;
 }
+.line h2 { 
+    font-size: 20px;
+	color: #FFFFFF;
+}
 .login-section ul li{
 	margin: 0 12px;
 }
@@ -806,6 +776,7 @@ only screen and (max-width: 760px),
 		clear:float;
 		width:220px;
 }
+
 .col-1{
 	padding-left:13px;
 	width:250px;
