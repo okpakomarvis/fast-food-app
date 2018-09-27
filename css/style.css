@@ -306,14 +306,7 @@ ul,ol {
 }
 
 
-.img-back1{
-    background: url(../images/order-section-bg.png) no-repeat;
-    min-height: 200px;
-    position: relative;
-    cursor: pointer;
-	
-	
-}
+
 .color{
 	color:#4d9644;
 }
