@@ -4,6 +4,7 @@ Fast Food Service App
 [![Code Climate](https://codeclimate.com/github/cloudfoundry/membrane.png)](https://codeclimate.com/github/cloudfoundry/membrane)
 
 What Does this app do?
+
 	Fast food service app is a an online web app that provide functionality for users to be able to order food online, and the food get delivered to the designated address.
 
 Description of task to be completed?
