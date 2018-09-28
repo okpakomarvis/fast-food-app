@@ -12,9 +12,11 @@ Description of task to be completed?
 -	Get /api/v1/orders/:id
 -	Put /api/v1/orders/:id
 -	Delete /api/v1/orders/:id
+
 How should this be Manually tested?
 
 	After cloning the repo cd into it and run npm dist/test/
+
 	Using postman test all the listed endpoint above
 
 Pivotal tracker story
